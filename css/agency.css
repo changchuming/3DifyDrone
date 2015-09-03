@@ -323,7 +323,7 @@ header {
 }
 
 header .intro-text {
-    padding-top: 1000px;
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 
@@ -342,6 +342,13 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+}
+
+@media (max-width: 768px) {
+    header .intro-text {
+        padding-top: 500px;
+        padding-bottom: 200px;
+    }
 }
 
 @media(min-width:768px) {
